@@ -1,16 +1,46 @@
-# hello_app
+Программирование корпоративных систем
 
-A new Flutter project.
+Отчет по практическому заданию №3
 
-## Getting Started
+Третьяков Илья  ЭФБО-06-23
 
-This project is a starting point for a Flutter application.
+Скриншот приложения
+<img width="585" height="1093" alt="image" src="https://github.com/user-attachments/assets/dafa3aab-b1c1-41cf-a438-fcadffb3ed56" />
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Скриншот работы со стилями текста
+<img width="520" height="240" alt="image" src="https://github.com/user-attachments/assets/4e1f85c6-0c1b-4379-8a90-8b144671265c" />
+
+
+
+Скришот работы с цветами
+<img width="898" height="602" alt="image" src="https://github.com/user-attachments/assets/8d1da018-5a7b-4a12-8232-35a3b3b08947" />
+
+
+
+
+Примененные виджеты и стилизация
+
+В рамках разработки проекта был задействован следующий набор основных виджетов Flutter:
+
+Базовые структурные виджеты: StatelessWidget, Scaffold (в качестве каркаса), AppBar (для верхней панели).
+
+Виджеты компоновки: Column, Row, Container и SizedBox (для создания отступов и структурирования интерфейса).
+
+Элементы интерфейса: Text, ElevatedButton, Icon.
+
+Стилизация и оформление
+
+Текст: Стилизация элементов Text выполнялась с использованием свойств fontSize и fontWeight.
+
+Контейнеры: Для виджетов Container задавались параметры width, height и color.
+
+Цвета: Цветовое оформление, в частности для иконок, применялось как с помощью стандартных цветов Material Design (Colors.blue), так и путем создания кастомных (Color.fromARGB(255, 159, 80, 52)).
+
+Построение интерфейса
+
+Компоновка экрана реализована по иерархическому принципу, где Scaffold выступает корневым элементом, содержащим Column. Для создания сложных макетов активно комбинировались виджеты Row и Column, а SizedBox использовался для контроля расстояний между элементами.
+
+Работа была выполнена без затруднений.
+В ходе работы трудностей не возникло.
